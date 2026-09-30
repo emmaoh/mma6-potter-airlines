@@ -100,4 +100,4 @@ Step 4 uses input(), so the notebook cannot run fully unattended.
 No LLM, GUI, or authentication (all optional).
 AI use
 
-** Generative AI helped draft the pricing description and generate the city lists used in the data. We tested the code and can explain it.
+### Generative AI helped draft the pricing description and generate the city lists used in the data. We tested the code and can explain it.
