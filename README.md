@@ -43,7 +43,7 @@ Each flight record has the following fields:
 | Field | Meaning |
 |---|---|
 | `flight_id` | Unique ID (e.g. `PA1169`) |
-| `origin`, `destination` | Route (Domestic cities plus international destinations such as Boston, Tokyo|
+| `origin`, `destination` | Route (Domestic cities plus international destinations such as Boston, Tokyo)|
 | `departure_date` | Departure date in `MM-DD-YYYY` format |
 | `days_until_departure` | Days between booking and departure |
 | `base_fare` | Route base fare in dollars|
