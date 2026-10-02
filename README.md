@@ -96,8 +96,9 @@ Relative price limits are used because base fares vary a lot between short domes
 The database is rebuilt on every run, so seat updates and deletions do not persist between runs.
 days_until_departure is a fixed number in the data. It does not change as time passes.
 Prices are recalculated when needed and are not stored in the database.
+Price calculation does not account for other factors such as baggage (carry-on/checked-bag), first class, buying with mileage or points, or layovers. 
 Step 4 uses input(), so the notebook cannot run fully unattended.
 No LLM, GUI, or authentication (all optional).
-AI use
+
 
 ### Generative AI helped draft the pricing description and generate the city lists used in the data. We tested the code and can explain it.
