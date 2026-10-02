@@ -93,11 +93,11 @@ All SQL uses ? parameters instead of building strings from input.
 Relative price limits are used because base fares vary a lot between short domestic and long international routes.
 
 ## 7. Known limitations
-The database is rebuilt on every run, so seat updates and deletions do not persist between runs.
-days_until_departure is a fixed number in the data. It does not change as time passes.
-Prices are recalculated when needed and are not stored in the database.
-Price calculation does not account for other factors such as baggage (carry-on/checked-bag), first class, buying with mileage or points, or layovers. 
-Step 4 uses input(), so the notebook cannot run fully unattended.
+- The database is rebuilt on every run, so seat updates and deletions do not persist between runs.
+- days_until_departure is a fixed number in the data. It does not change as time passes.
+- Prices are recalculated when needed and are not stored in the database.
+- Price calculation does not account for other factors such as baggage (carry-on/checked-bag), first class, buying with mileage or points, or layovers.
+- Step 4 uses input(), so the notebook cannot run fully unattended.
 No LLM, GUI, or authentication (all optional).
 
 
